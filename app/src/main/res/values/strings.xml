@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">SqliteApplication</string>
+    <string name="server_client_id">581827020170-g29q823oa50t73nccu496a8plg8fga8m.apps.googleusercontent.com</string>
+    <!--9a35yEeqDtXd3Aj2LyGDrP9b-->
+
+    <string name="friend_first_name">FirstName</string>
+    <string name="friend_last_name">LastName</string>
+    <string name="friend_tel">Tel</string>
+    <string name="friend_email">Email</string>
+    <string name="friend_description">Description</string>
+
+    <string name="action_delete">Delete</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_add">Add</string>
+
+    <string name="alert_title">Delete this friend?</string>
+    <string name="alert_message">Are you sure to delete this friend?</string>
+
+    <string name="add_data_title">Add this friend?</string>
+    <string name="add_data_message">Are you sure to add this friend?</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="hint_word">Word…</string>
+    <string name="button_save">Save</string>
+    <string name="empty_not_saved">Word not saved because it is empty.</string>
+    <string name="add_word">Add word</string>
+
+    <string name="likes">Likes</string>
+    <string name="textview">TextView</string>
+    <string name="profile_name">NAME</string>
+    <string name="profile_lastname">LAST NAME</string>
+    <string name="last_name_label">Last name</string>
+    <string name="name_label">Name</string>
+    <string name="profile_avatar_cd">Profile\'s avatar</string>
+    <string name="like">Like</string>
+
+    <string name="canvas_desc">Mini Paint is a simple line drawing app.
+   Drag your fingers to draw. Rotate the phone to clear.</string>
+
+    <string name="dollar_sign">$</string>
+    <string name="zero">0</string>
+    <string name="dessert_sold">Desserts Sold</string>
+    <string name="share_text">I\'ve clicked %1$d Desserts for a total of %2$d$ #AndroidDessertClicker</string>
+    <string name="share">Share</string>
+    <string name="sharing_not_available">Sharing Not Available</string>
+
+    <string name="game_over">Game Over</string>
+    <string name="try_again">Try Again?</string>
+    <string name="position">Position</string>
+    <string name="select_an_avatar">Select an Avatar</string>
+    <string name="android_trivia">Android Trivia</string>
+    <string name="about_text">Android Trivia will help remind you of important concepts you have learned and will learn in Android development.\n\nConsider modifying the questions and graphics to make this game your own!</string>
+    <string name="rules_text">Select the answer from the options given. Each time you get an answer correct, you advance to the next question.\n\nIf you get the answer wrong, your game ends! You can return to the title screen using up or back from within the game screen, and this will also end your game.</string>
+    <string name="rules">Rules</string>
+    <string name="about">About</string>
+    <string name="trivia_hint">Trivia Hint</string>
+    <string name="title_android_trivia_question">Android Trivia (%1$d/%2$d)</string>
+    <string name="title_about_trivia">About Trivia</string>
+    <string name="title_trivia_rules">Trivia Rules</string>
+    <string name="share_success_text">I mastered #UdacityAndroidTrivia with %1$d/%2$d correct questions!</string>
+    <string name="submit_button">Submit</string>
+    <string name="congratulations">Congratulations!</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sign_out">Sign out</string>
+
+</resources>

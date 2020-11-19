@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
+    package="com.example.sqliteapplication">
+
+    <dist:module dist:instant="true" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".actvity.NullSafetyActivity"></activity>
+        <activity
+            android:name=".smsverification.PhoneAuthActivity"
+            android:theme="@style/AppTheme.Mat" />
+        <activity android:name=".actvity.SMSVerificationActivity2">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".navigation.Navigation2Activity" />
+        <activity android:name=".navigation.NavigationActivity" />
+        <activity android:name=".speech.SpeechActivity" />
+        <activity android:name=".lifecycle.DessertActivity" />
+        <activity android:name=".video.VideoViewActivity" />
+        <activity android:name=".animation.StarActivity" />
+        <activity
+            android:name=".canvas.CanvasActivity"
+            android:theme="@style/CanvasTheme" />
+        <activity android:name=".indicator.ViewPagerActivity" />
+        <activity android:name=".rx.MultiRxActivity" />
+        <activity android:name=".databinding.PlainOldActivity" />
+        <activity android:name=".room.student.StudentActivity" />
+        <activity android:name=".room.NewWordActivity" />
+        <activity
+            android:name=".room.WordActivity"
+            android:theme="@style/RoomTheme" />
+        <activity android:name=".actvity.DetailActivity" />
+        <activity android:name=".actvity.AddFriendActivity" />
+        <activity
+            android:name=".actvity.MainActivity"
+            android:label="@string/app_name" />
+
+        <receiver
+            android:name=".actvity.MySMSBroadcastReceiver"
+            android:exported="true"
+            android:permission="com.google.android.gms.auth.api.phone.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.gms.auth.api.phone.SMS_RETRIEVED" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

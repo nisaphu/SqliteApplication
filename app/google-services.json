@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "581827020170",
+    "firebase_url": "https://sqliteapplicatio-1592883388716.firebaseio.com",
+    "project_id": "sqliteapplicatio-1592883388716",
+    "storage_bucket": "sqliteapplicatio-1592883388716.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:581827020170:android:f2d93a0685fe68d19a3473",
+        "android_client_info": {
+          "package_name": "com.example.sqliteapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "581827020170-2gku305b8on224rlfen9g2m4udctpkui.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sqliteapplication",
+            "certificate_hash": "39885ee6339e87b0f07c39eedccbdebce7e0ff8c"
+          }
+        },
+        {
+          "client_id": "581827020170-688s2qu9fc1gbrjp1uvahmpie6sn9rsj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzACiKi6anFoXBRf2rhqDIdgtUELgrfB8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "581827020170-688s2qu9fc1gbrjp1uvahmpie6sn9rsj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/navigation1Fragment">
+
+    <fragment
+        android:id="@+id/navigation1Fragment"
+        android:name="com.example.sqliteapplication.navigation.Navigation1Fragment"
+        android:label="fragment_navigation1"
+        tools:layout="@layout/fragment_navigation1" >
+        <action
+            android:id="@+id/action_navigation1Fragment_to_navigation2Fragment"
+            app:destination="@id/navigation2Fragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation2Fragment"
+        android:name="com.example.sqliteapplication.navigation.Navigation2Fragment"
+        android:label="fragment_navigation2"
+        tools:layout="@layout/fragment_navigation2" >
+        <argument
+            android:name="type"
+            app:argType="string" />
+        <argument
+            android:name="amount"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_navigation2Fragment_to_navigation3Fragment"
+            app:destination="@id/navigation3Fragment" />
+        <argument
+            android:name="test"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation3Fragment"
+        android:name="com.example.sqliteapplication.navigation.Navigation3Fragment"
+        android:label="fragment_navigation3"
+        tools:layout="@layout/fragment_navigation3" >
+        <action
+            android:id="@+id/action_navigation3Fragment_to_navigation2Fragment"
+            app:destination="@id/navigation2Fragment" />
+        <action
+            android:id="@+id/action_navigation3Fragment_to_navigation1Fragment"
+            app:destination="@id/navigation1Fragment" />
+    </fragment>
+</navigation>
